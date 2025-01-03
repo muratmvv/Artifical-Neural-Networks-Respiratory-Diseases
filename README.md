@@ -15,3 +15,21 @@ Model Performansı: Doğruluk, hassasiyet ve F1 skoru gibi metriklerle değerlen
 Gelecekteki Çalışmalar
 Daha büyük ve çeşitli veri setleriyle test edilmesi.
 Gerçek zamanlı sınıflandırma için mobil ve gömülü sistemlere entegrasyon.
+
+
+
+Respiratory Sound Classification using CNN and GRU
+About the Project
+This project aims to classify respiratory sounds using Convolutional Neural Networks (CNN) and Gated Recurrent Units (GRU). Accurate analysis of respiratory sounds plays a crucial role in the early diagnosis of respiratory diseases such as asthma, bronchitis, or pneumonia. The project leverages machine learning and deep learning techniques to achieve this goal.
+
+Features
+Data Collection: Open-source datasets of respiratory sounds (e.g., ICBHI 2017 Challenge) were utilized.
+Feature Extraction: Meaningful features were extracted from sound signals using MFCC (Mel-Frequency Cepstral Coefficients) and spectrograms.
+Model Architecture:
+CNN: Used to learn spatial features from spectrograms.
+GRU: Applied for capturing the sequential structure of time-series data.
+Classification: Differentiated between normal and abnormal respiratory sounds (e.g., wheezing, crackles).
+Model Performance: Evaluated using metrics like accuracy, precision, and F1 score.
+Future Work
+Testing with larger and more diverse datasets.
+Integration into mobile and embedded systems for real-time classification.
